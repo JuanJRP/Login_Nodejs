@@ -22,15 +22,10 @@ This is a simple login project developed with Node.js and Express. It allows use
     ```bash
     cd Login_Nodejs
 
-
 3. Install the necessary dependencies:
     ```bash
     npm install
 
-3. Install the necessary dependencies:
-    ```bash
-    npm install
-
-3. Start the server:
+4. Start the server:
     ```bash
     npm run dev
