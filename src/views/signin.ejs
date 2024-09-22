@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Automatica y control</title>
+    <link rel="stylesheet" href="/CSS/Styles-index.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <img class="Avatar" src="/img/A&C_Logo.jpg" alt="Logo">
+        <% if (signinMessage) { %>
+            <div>
+                <%= signinMessage%>
+            </div>
+            <%    }%>
+                <h1>Automatica y control</h1>
+                <form action="/signin" method="POST">
+                    <label for="Correo">Correo</label>
+                    <input type="text" placeholder="Ingrese su correo" name="user" required>
+                    <label for="Password">Contraseña</label>
+                    <input type="password" placeholder="Ingrese la Contraseña" name="passwd" required>
+                    <input type="submit" value="Entrar" onclick="sub()">
+                    <a href="/signup">Aun no tiene cuenta?</a>
+                </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Automatica y control</title>
+    <link rel="stylesheet" href="CSS/Styles-Sign-up.css">
+</head>
+
+<body>
+    <div class="Sign-up-box">
+        <% if (signupMessage) { %>
+            <div class="alerta">
+                <%= signupMessage%>
+            </div>
+            <%    }%>
+                <h1>Registrarse</h1>
+                <form action="/signup" method="POST">
+                    <label for="Email">Correo</label>
+                    <input type="email" placeholder="Ingrese un correo" name="email" required>
+                    <label for="Contraseña">Contraseña</label>
+                    <input type="password" placeholder="Ingrese una contraseña" name="password" required>
+                    <input type="submit" value="Registrar">
+                    <a href="/">Entrar?</a>
+                </form>
+    </div>
+</body>
+
+</html>

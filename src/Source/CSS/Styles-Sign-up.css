@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/BackGround.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.Sign-up-box div {
+    color: red;
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 22px;
+    margin: 10;
+}
+
+.Sign-up-box {
+    width: 350px;
+    height: 350px;
+    background: transparent;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.Sign-up-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
+.Sign-up-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    color: black;
+}
+
+.Sign-up-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Sign-up-box input[type="text"],
+.Sign-up-box input[type="number"],
+.Sign-up-box input[type="email"],
+.Sign-up-box input[type="Password"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.Sign-up-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Sign-up-box input[type="submit"]:hover {
+    color: black;
+}
+
+.Sign-up-box a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.Sign-up-box a:hover {
+    color: black;
+}
+
+.Sign-up-box input[type="submit"]:hover {
+    color: black;
+    background: white;
+}
