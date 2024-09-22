@@ -29,3 +29,5 @@ This is a simple login project developed with Node.js and Express. It allows use
 4. Start the server:
     ```bash
     npm run dev
+
+The application will be available at http://localhost:300.
