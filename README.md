@@ -20,7 +20,7 @@ This is a simple login project developed with Node.js and Express. It allows use
 
 2. Navigate to the project directory:
     ```bash
-    cd EPS_Basic_Software
+    cd Login_Nodejs
 
 
 3. Install the necessary dependencies:
